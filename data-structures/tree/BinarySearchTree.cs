@@ -124,7 +124,7 @@ namespace BinarySearchTree
             if (node != null)
             {
                 inOrderTraversal(node.left);
-                Console.Write(node.data + " ");
+                Console.WriteLine(node.data);
                 inOrderTraversal(node.right);
             }
         }
@@ -132,7 +132,7 @@ namespace BinarySearchTree
         {
             if (node != null)
             {
-                Console.Write(node.data + " ");
+                Console.WriteLine(node.data);
                 preOrderTraversal(node.left);
                 preOrderTraversal(node.right);
             }
@@ -143,7 +143,7 @@ namespace BinarySearchTree
             {
                 postOrderTraversal(node.left);
                 postOrderTraversal(node.right);
-                Console.Write(node.data + " ");
+                Console.WriteLine(node.data);
             }
         }
 
