@@ -1,6 +1,6 @@
 ﻿using System;
 
-using StackByLinkedList;
+using BinarySearchTree;
 
 namespace csharp_playground
 {
